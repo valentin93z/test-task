@@ -7,11 +7,12 @@ import CardsList from "./components/Cards/CardsList";
 import RouteSelection from "./components/Route/RouteSelection";
 import Home from "./components/Home";
 
+
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/test-task" element={<Home />} />
         <Route path="/cards" element={<CardsList/>} />
         <Route path="/table-wrap-v1" element={<TableWrapV1/>} />
         <Route path="/table-wrap-v2" element={<TableWrapV2/>} />
