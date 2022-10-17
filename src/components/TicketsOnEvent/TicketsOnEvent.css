@@ -1,0 +1,48 @@
+.tickets-on-event {
+    padding: 20px 10px;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.form__order {
+    max-width: 1400px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+}
+
+.events-date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.price__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.price__item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.send-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-order p {
+    font-size: 24px;
+}

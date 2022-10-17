@@ -1,0 +1,26 @@
+.label {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 129px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #7553FF;
+    border-radius: 15px 0px 12px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .label {
+        font-size: 16px;
+        width: 180px;
+        height: 45px;
+    }
+}
