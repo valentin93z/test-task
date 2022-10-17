@@ -46,3 +46,26 @@
 .send-order p {
     font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .events-date {
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+    }
+
+    .price__list {
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+        gap: 20px;
+    }
+
+    .price__item {
+        gap: 5px;
+    }
+
+    .send-order {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
